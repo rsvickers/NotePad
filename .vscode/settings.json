@@ -1,0 +1,27 @@
+{
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#701182",
+    "activityBar.background": "#701182",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#701182",
+    "statusBar.background": "#490b55",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#701182",
+    "statusBarItem.remoteBackground": "#490b55",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#490b55",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#490b5599",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#490b55",
+  "cSpell.words": [
+    "Rhys"
+  ],
+}
