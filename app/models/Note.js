@@ -6,9 +6,9 @@ import { generateId } from "../utils/GenerateId.js";
 
 export class Note {
     constructor(data) {
-        this.id = generateId()
+        this.id = data.id || generateId()
         this.title = data.title
-        this.jot = data.jot
+        this.jot = data.jot || ''
         this.color = data.color
         this.createdAt = data.createdAt ? new Date(data.createdAt) : new Date()
         this.updatedAt = data.updatedAt ? new Date(data.updatedAt) : new Date()

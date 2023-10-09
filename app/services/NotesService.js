@@ -18,6 +18,7 @@ class NotesService {
     saveActiveNote(noteContents) {
         let activeNote = AppState.activeNote
         activeNote.jot = noteContents
+        activeNote.updatedAt = new Date()
         // console.log(activeCase)
 
         _save()
